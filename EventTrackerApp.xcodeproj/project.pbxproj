@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036245ED1DDDE54D0056708C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 036245EC1DDDE54D0056708C /* main.m */; };
+		036245F91DDDE54D0056708C /* EventTrackerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 036245F71DDDE54D0056708C /* EventTrackerApp.xcdatamodeld */; };
+		036245FB1DDDE54D0056708C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036245FA1DDDE54D0056708C /* Assets.xcassets */; };
+		036245FE1DDDE54D0056708C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036245FC1DDDE54D0056708C /* LaunchScreen.storyboard */; };
+		036246151DDDE6A90056708C /* gridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 036246071DDDE6A90056708C /* gridViewCell.m */; };
+		036246161DDDE6A90056708C /* ListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 036246091DDDE6A90056708C /* ListViewCell.m */; };
+		036246171DDDE6A90056708C /* TrackedEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0362460B1DDDE6A90056708C /* TrackedEventCell.m */; };
+		036246181DDDE6A90056708C /* EvenDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0362460E1DDDE6A90056708C /* EvenDetailViewController.m */; };
+		036246191DDDE6A90056708C /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036246101DDDE6A90056708C /* EventListViewController.m */; };
+		0362461A1DDDE6A90056708C /* TrackedEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036246121DDDE6A90056708C /* TrackedEventViewController.m */; };
+		0362461B1DDDE6A90056708C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036246141DDDE6A90056708C /* LoginViewController.m */; };
+		0362461E1DDDE6B60056708C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0362461C1DDDE6B60056708C /* Main.storyboard */; };
+		036246201DDDE6E50056708C /* EventsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0362461F1DDDE6E50056708C /* EventsData.json */; };
+		036246261DDF4F770056708C /* Event+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 036246231DDF4F770056708C /* Event+CoreDataProperties.m */; };
+		036246271DDF4F770056708C /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 036246251DDF4F770056708C /* Event.m */; };
+		0362462B1DE0090C0056708C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0362462A1DE0090C0056708C /* AppDelegate.m */; };
+		036246311DE00A1F0056708C /* CoreDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0362462E1DE00A1F0056708C /* CoreDataHandler.m */; };
+		036246321DE00A1F0056708C /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 036246301DE00A1F0056708C /* CoreDataHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		036245E81DDDE54D0056708C /* EventTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036245EC1DDDE54D0056708C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		036245F81DDDE54D0056708C /* EventTrackerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventTrackerApp.xcdatamodel; sourceTree = "<group>"; };
+		036245FA1DDDE54D0056708C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036245FD1DDDE54D0056708C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036245FF1DDDE54D0056708C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036246061DDDE6A90056708C /* gridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridViewCell.h; sourceTree = "<group>"; };
+		036246071DDDE6A90056708C /* gridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gridViewCell.m; sourceTree = "<group>"; };
+		036246081DDDE6A90056708C /* ListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewCell.h; sourceTree = "<group>"; };
+		036246091DDDE6A90056708C /* ListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewCell.m; sourceTree = "<group>"; };
+		0362460A1DDDE6A90056708C /* TrackedEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackedEventCell.h; sourceTree = "<group>"; };
+		0362460B1DDDE6A90056708C /* TrackedEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackedEventCell.m; sourceTree = "<group>"; };
+		0362460D1DDDE6A90056708C /* EvenDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvenDetailViewController.h; sourceTree = "<group>"; };
+		0362460E1DDDE6A90056708C /* EvenDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvenDetailViewController.m; sourceTree = "<group>"; };
+		0362460F1DDDE6A90056708C /* EventListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
+		036246101DDDE6A90056708C /* EventListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListViewController.m; sourceTree = "<group>"; };
+		036246111DDDE6A90056708C /* TrackedEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackedEventViewController.h; sourceTree = "<group>"; };
+		036246121DDDE6A90056708C /* TrackedEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackedEventViewController.m; sourceTree = "<group>"; };
+		036246131DDDE6A90056708C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		036246141DDDE6A90056708C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0362461D1DDDE6B60056708C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0362461F1DDDE6E50056708C /* EventsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventsData.json; sourceTree = "<group>"; };
+		036246221DDF4F770056708C /* Event+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Event+CoreDataProperties.h"; sourceTree = "<group>"; };
+		036246231DDF4F770056708C /* Event+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Event+CoreDataProperties.m"; sourceTree = "<group>"; };
+		036246241DDF4F770056708C /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		036246251DDF4F770056708C /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		036246291DE0090C0056708C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0362462A1DE0090C0056708C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0362462D1DE00A1F0056708C /* CoreDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHandler.h; sourceTree = "<group>"; };
+		0362462E1DE00A1F0056708C /* CoreDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHandler.m; sourceTree = "<group>"; };
+		0362462F1DE00A1F0056708C /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		036246301DE00A1F0056708C /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036245E51DDDE54D0056708C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036245DF1DDDE54D0056708C = {
+			isa = PBXGroup;
+			children = (
+				036245EA1DDDE54D0056708C /* EventTrackerApp */,
+				036245E91DDDE54D0056708C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036245E91DDDE54D0056708C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036245E81DDDE54D0056708C /* EventTrackerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036245EA1DDDE54D0056708C /* EventTrackerApp */ = {
+			isa = PBXGroup;
+			children = (
+				036246281DE0090C0056708C /* AppDelegate */,
+				0362462C1DE00A1F0056708C /* CoreData Classes */,
+				036246211DDF4F770056708C /* CoredataModel Class */,
+				036246051DDDE6A90056708C /* CustomCell */,
+				0362460C1DDDE6A90056708C /* ViewController */,
+				036245FA1DDDE54D0056708C /* Assets.xcassets */,
+				0362461C1DDDE6B60056708C /* Main.storyboard */,
+				036245FF1DDDE54D0056708C /* Info.plist */,
+				036245F71DDDE54D0056708C /* EventTrackerApp.xcdatamodeld */,
+				036245EB1DDDE54D0056708C /* Supporting Files */,
+			);
+			path = EventTrackerApp;
+			sourceTree = "<group>";
+		};
+		036245EB1DDDE54D0056708C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				036245FC1DDDE54D0056708C /* LaunchScreen.storyboard */,
+				0362461F1DDDE6E50056708C /* EventsData.json */,
+				036245EC1DDDE54D0056708C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		036246051DDDE6A90056708C /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				036246061DDDE6A90056708C /* gridViewCell.h */,
+				036246071DDDE6A90056708C /* gridViewCell.m */,
+				036246081DDDE6A90056708C /* ListViewCell.h */,
+				036246091DDDE6A90056708C /* ListViewCell.m */,
+				0362460A1DDDE6A90056708C /* TrackedEventCell.h */,
+				0362460B1DDDE6A90056708C /* TrackedEventCell.m */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		0362460C1DDDE6A90056708C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				036246131DDDE6A90056708C /* LoginViewController.h */,
+				036246141DDDE6A90056708C /* LoginViewController.m */,
+				0362460F1DDDE6A90056708C /* EventListViewController.h */,
+				036246101DDDE6A90056708C /* EventListViewController.m */,
+				0362460D1DDDE6A90056708C /* EvenDetailViewController.h */,
+				0362460E1DDDE6A90056708C /* EvenDetailViewController.m */,
+				036246111DDDE6A90056708C /* TrackedEventViewController.h */,
+				036246121DDDE6A90056708C /* TrackedEventViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		036246211DDF4F770056708C /* CoredataModel Class */ = {
+			isa = PBXGroup;
+			children = (
+				036246221DDF4F770056708C /* Event+CoreDataProperties.h */,
+				036246231DDF4F770056708C /* Event+CoreDataProperties.m */,
+				036246241DDF4F770056708C /* Event.h */,
+				036246251DDF4F770056708C /* Event.m */,
+			);
+			path = "CoredataModel Class";
+			sourceTree = "<group>";
+		};
+		036246281DE0090C0056708C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				036246291DE0090C0056708C /* AppDelegate.h */,
+				0362462A1DE0090C0056708C /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0362462C1DE00A1F0056708C /* CoreData Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0362462D1DE00A1F0056708C /* CoreDataHandler.h */,
+				0362462E1DE00A1F0056708C /* CoreDataHandler.m */,
+				0362462F1DE00A1F0056708C /* CoreDataHelper.h */,
+				036246301DE00A1F0056708C /* CoreDataHelper.m */,
+			);
+			path = "CoreData Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036245E71DDDE54D0056708C /* EventTrackerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036246021DDDE54D0056708C /* Build configuration list for PBXNativeTarget "EventTrackerApp" */;
+			buildPhases = (
+				036245E41DDDE54D0056708C /* Sources */,
+				036245E51DDDE54D0056708C /* Frameworks */,
+				036245E61DDDE54D0056708C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventTrackerApp;
+			productName = EventTrackerApp;
+			productReference = 036245E81DDDE54D0056708C /* EventTrackerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036245E01DDDE54D0056708C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "sarathkumar s";
+				TargetAttributes = {
+					036245E71DDDE54D0056708C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 49K755643D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 036245E31DDDE54D0056708C /* Build configuration list for PBXProject "EventTrackerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036245DF1DDDE54D0056708C;
+			productRefGroup = 036245E91DDDE54D0056708C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036245E71DDDE54D0056708C /* EventTrackerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036245E61DDDE54D0056708C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0362461E1DDDE6B60056708C /* Main.storyboard in Resources */,
+				036245FE1DDDE54D0056708C /* LaunchScreen.storyboard in Resources */,
+				036246201DDDE6E50056708C /* EventsData.json in Resources */,
+				036245FB1DDDE54D0056708C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036245E41DDDE54D0056708C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036246311DE00A1F0056708C /* CoreDataHandler.m in Sources */,
+				036246191DDDE6A90056708C /* EventListViewController.m in Sources */,
+				036245ED1DDDE54D0056708C /* main.m in Sources */,
+				036246161DDDE6A90056708C /* ListViewCell.m in Sources */,
+				0362461B1DDDE6A90056708C /* LoginViewController.m in Sources */,
+				036246271DDF4F770056708C /* Event.m in Sources */,
+				036246321DE00A1F0056708C /* CoreDataHelper.m in Sources */,
+				0362462B1DE0090C0056708C /* AppDelegate.m in Sources */,
+				036246151DDDE6A90056708C /* gridViewCell.m in Sources */,
+				036246181DDDE6A90056708C /* EvenDetailViewController.m in Sources */,
+				036246261DDF4F770056708C /* Event+CoreDataProperties.m in Sources */,
+				0362461A1DDDE6A90056708C /* TrackedEventViewController.m in Sources */,
+				036245F91DDDE54D0056708C /* EventTrackerApp.xcdatamodeld in Sources */,
+				036246171DDDE6A90056708C /* TrackedEventCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		036245FC1DDDE54D0056708C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036245FD1DDDE54D0056708C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0362461C1DDDE6B60056708C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0362461D1DDDE6B60056708C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036246001DDDE54D0056708C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		036246011DDDE54D0056708C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036246031DDDE54D0056708C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49K755643D;
+				INFOPLIST_FILE = EventTrackerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.EventTrackerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		036246041DDDE54D0056708C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49K755643D;
+				INFOPLIST_FILE = EventTrackerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.EventTrackerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036245E31DDDE54D0056708C /* Build configuration list for PBXProject "EventTrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036246001DDDE54D0056708C /* Debug */,
+				036246011DDDE54D0056708C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036246021DDDE54D0056708C /* Build configuration list for PBXNativeTarget "EventTrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036246031DDDE54D0056708C /* Debug */,
+				036246041DDDE54D0056708C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		036245F71DDDE54D0056708C /* EventTrackerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				036245F81DDDE54D0056708C /* EventTrackerApp.xcdatamodel */,
+			);
+			currentVersion = 036245F81DDDE54D0056708C /* EventTrackerApp.xcdatamodel */;
+			path = EventTrackerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 036245E01DDDE54D0056708C /* Project object */;
+}
