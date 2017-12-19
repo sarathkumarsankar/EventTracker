@@ -16,6 +16,8 @@
 @synthesize userName;
 
 - (void)viewDidLoad {
+    
+    NSLog(@"sarath");
     [super viewDidLoad];
 }
 - (void)didReceiveMemoryWarning {
